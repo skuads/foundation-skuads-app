@@ -1,0 +1,31 @@
+export const colors = {
+  background: '#F4F6FF',
+  backgroundDeep: '#EEF0FF',
+  surface: '#FFFFFF',
+  surfaceMuted: '#F9FAFB',
+  surfaceStrong: '#FFFFFF',
+  border: '#E5E7EB',
+  borderStrong: '#D1D5DB',
+  shadow: 'rgba(15, 23, 42, 0.08)',
+  textPrimary: '#111827',
+  textSecondary: '#6B7280',
+  textMuted: '#9CA3AF',
+  primary: '#312E81',
+  primaryDark: '#1E1B4B',
+  primaryLight: '#E0E7FF',
+  success: '#10B981',
+  warning: '#F59E0B',
+  danger: '#EF4444',
+  info: '#0EA5E9',
+  brand: '#FC3AB2',
+  chipBackground: 'rgba(49, 46, 129, 0.12)',
+};
+
+export const categoryColors = [
+  '#312E81',
+  '#10B981',
+  '#F59E0B',
+  '#EF4444',
+  '#8B5CF6',
+  '#0EA5E9',
+];
