@@ -10,8 +10,8 @@ This repository is NOT the Skuads application.
 
 The Skuads application is proprietary software stored exclusively on internal
 infrastructure and is accessible only to Skuads employees working in software
-engineering. It is not distributed, open-sourced, or made available to the public
-in any form.
+engineering. Its source code is not distributed, open-sourced, or made available
+to the public in any form.
 
 This repository is a demonstration and a light foundation of design and UI
 components inspired by the Skuads application. It does not contain any business
