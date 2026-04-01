@@ -1,15 +1,14 @@
 import React from 'react';
 import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, View } from 'react-native';
 import { colors, layout, radii, spacing } from '../theme';
-import { SkuadsLogo } from './SkuadsLogo';
-
 type AuthLayoutProps = {
   children: React.ReactNode;
+  logo?: React.ReactNode;
   header?: React.ReactNode;
   footer?: React.ReactNode;
 };
 
-export function AuthLayout({ children, header, footer }: AuthLayoutProps) {
+export function AuthLayout({ children, logo, header, footer }: AuthLayoutProps) {
   return (
     <KeyboardAvoidingView
       style={styles.root}
@@ -21,7 +20,7 @@ export function AuthLayout({ children, header, footer }: AuthLayoutProps) {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.center}>
-          <SkuadsLogo />
+          {logo ? logo : null}
           {header ? <View style={styles.header}>{header}</View> : null}
           <View style={styles.card}>{children}</View>
           {footer ? <View style={styles.footer}>{footer}</View> : null}
