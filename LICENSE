@@ -1,6 +1,25 @@
 MIT License
 
 Copyright (c) 2026 Skuads
+https://www.skuads.com
+support@skuads.com
+
+IMPORTANT NOTICE
+----------------
+This repository is NOT the Skuads application.
+
+The Skuads application is proprietary software stored exclusively on internal
+infrastructure and is accessible only to Skuads employees working in software
+engineering. It is not distributed, open-sourced, or made available to the public
+in any form.
+
+This repository is a demonstration and a light foundation of design and UI
+components inspired by the Skuads application. It does not contain any business
+logic, data, API credentials, or proprietary algorithms belonging to the Skuads
+platform.
+
+The Skuads application and all intellectual property associated with it remain the
+exclusive property of Skuads.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
